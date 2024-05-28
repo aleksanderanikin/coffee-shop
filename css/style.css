@@ -1,0 +1,440 @@
+:root {
+    --font-family: "Jost", sans-serif;
+    --second-family: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr {
+    width: 1920px;
+    height: 1px;
+    background: #32323d;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    height: 117px;
+    background: black;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+.hero__container {}
+
+.header {}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {}
+
+.language__btn {}
+
+.btn {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    border: 0px solid;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.ru {
+    margin-left: 360px;
+}
+
+.btn:hover {
+    color: orange;
+}
+
+.number {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 360px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.header__botton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-left: 360px;
+    margin-top: 36px;
+    margin-bottom: 33px;
+}
+
+.nav__list {}
+
+.nav__item {}
+
+.nav__link {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav__link:hover {
+    color: orange;
+}
+
+.logo {
+    margin-top: 18px;
+    width: 58px;
+    height: 54px;
+}
+
+.central__btn {
+    margin-top: 36px;
+    margin-right: 360px;
+}
+
+.profile {
+    margin-right: 30px;
+}
+
+.favourites {
+    margin-right: 30px;
+}
+
+.basket {}
+
+.coffee {
+    background: url(../img/hero_img.jpg);
+    width: 1920px;
+    height: 720px;
+}
+
+.about {
+    margin-left: 360px;
+    padding-top: 200px;
+}
+
+.sigma__coffee {}
+
+.choice {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 144%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.cooking {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #dfdfdf;
+}
+
+.btn__about {
+    display: flex;
+    gap: 20px;
+}
+
+.buy {
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: #c7a17a;
+    padding: 15px;
+    text-align: center;
+}
+
+.now {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.read {
+    border: 1px solid #666681;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background: rgba(199, 161, 122, 0);
+    padding: 15px;
+    text-align: center;
+}
+
+.more {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Roasted {
+    background: black;
+    padding-top: 100px;
+}
+
+.about__coffee {
+    margin-left: 360px;
+    display: flex;
+    border-radius: 10px;
+    width: 1200px;
+    height: 330px;
+    background: #14141d;
+}
+
+
+.about__Roasted {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about__Roasted-coffee {
+    padding-left: 30px;
+    padding-right: 73px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #dfdfdf;
+}
+
+.catalog {
+    background: black;
+    padding-top: 80px;
+}
+
+.catalog__coffee {
+    margin-left: 363px;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 144%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.product__coffee {
+    margin-left: 363px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.products__coffee {
+    border-radius: 10px;
+    width: 386px;
+    height: 372px;
+    background: #14141d;
+}
+
+.product {
+    padding-top: 20px;
+    margin-left: 140px;
+}
+
+.products__img {
+    width: 97px;
+    height: 199px;
+}
+
+.name__coffee {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.buy__products {
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.buy__price-after {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.buy__price-before {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: #818181;
+}
+
+.likes__svg {
+    margin-left: 150px;
+}
+
+.likes {}
+
+.news {
+    padding-top: 80px;
+    background: black;
+    padding-bottom: 80px;
+}
+
+.new {
+    padding-left: 363px;
+}
+
+.news__coffee {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 144%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.new__coffee {
+    display: flex;
+    gap: 21px;
+}
+
+.news__cart {
+    border-radius: 10px;
+    width: 386px;
+    height: 465px;
+    background: #14141d;
+}
+
+.news__img {}
+
+.newx__img-wrap {
+    border-radius: 10px 10px 0 0;
+    width: 386px;
+    height: 239px;
+}
+
+.about__new {
+    margin-left: 21px;
+    padding-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about__new-coffee {
+    margin-left: 21px;
+    padding-top: 13px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #dfdfdf;
+}
+
+.leg {
+    background: black;
+}
+
+.fast__moving {
+    margin-left: 363px;
+    padding-top: 79px;
+    display: flex;
+}
+
+.logo__coffee {
+    width: 58px;
+    height: 78px;
+}
+
+.logo__coffee-wrap {}
+
+.name__shop {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f8dabf;
+}
+
+
+.leg__nav {
+    margin-left: 219px;
+}
+
+.leg__nav-list {}
+
+.leg__nav-item {
+    margin-bottom: 20px;
+}
+
+.leg__nav-link {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
